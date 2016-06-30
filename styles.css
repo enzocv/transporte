@@ -1,0 +1,74 @@
+*{
+    background-color: #e9e9e9;
+}
+
+.wrapper{
+    /*padding: 1%;*/
+    margin:  1% auto;
+    width: 100%;
+    /*border: #727272 solid;*/
+}
+#tablaGenerada{
+    /*border: none;*/
+    margin-bottom: 1em;
+}
+
+#tablaGenerada td{
+    padding: 0;
+}
+
+#tablaGenerada td input{
+    background-color: white;
+}
+
+#inputFilas,#inputColumnas{
+    background-color: white;
+}
+
+#inputSol{
+    margin: 1em 0;
+    padding: 2em 2em;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    color: white !important;
+    background-color: #0062be !important;
+}
+
+table tr{
+    /*background-color: white;*/
+}
+
+.tableProceso{
+    background-color: white;
+    align-content: center;
+}
+
+.tableProceso td,.tableSol td{
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+.pure-button{
+    border: none !important;
+    margin:0 0.1em;
+}
+
+input:read-only{
+    /*font-weight: 600;*/
+    color: black !important;
+}
+
+header p{
+    height: 10%;
+    padding: 3%;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: #0078e7;
+}
